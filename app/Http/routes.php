@@ -13,6 +13,11 @@
 
 Route::get('/', 'WelcomeController@index');
 
+Route::get('/admin', 'ProductionController@index');
+
+Route::resource('productions', 'ProductionController');
+
+
 Route::get('home', 'HomeController@index');
 
 Route::controllers([

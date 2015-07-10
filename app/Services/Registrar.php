@@ -1,6 +1,6 @@
-<?php namespace App\Services;
+<?php namespace rbs\Services;
 
-use App\User;
+use rbs\Models\User;
 use Validator;
 use Illuminate\Contracts\Auth\Registrar as RegistrarContract;
 
