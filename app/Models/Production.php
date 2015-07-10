@@ -6,6 +6,45 @@ use MyProject\Proxies\__CG__\OtherProject\Proxies\__CG__\stdClass;
 
 class Production extends Model {
 
+    /**
+     * The database table used by the model.
+     *
+     * @var string
+     */
+    protected $table = 'productions';
+
+    /**
+     * The attributes that are mass assignable.
+     *
+     * @var array
+     */
+    protected $fillable =
+        ['id',
+         'name',
+         'header',
+         'footer',
+         'css',
+         'is_closed',
+         'close_date',
+         'theatre',
+         'site_location',
+         'bookingslocation',
+         'faq_location',
+         'salesemail',
+         'sales_info',
+         'accept_sales',
+         'accept_dd',
+         'accept_paypal',
+         'paypal_account',
+         'paypal_info',
+         'dd_info',
+         'group_tickets_amount',
+         'accept_stripe',
+         'stripe_publishable_key',
+         'stripe_secret_key',
+         'stripe_info',
+         'group_tickets_message'];
+
     // TODO: Refactor the SQL
     public static function get_ticket_totals($id) {
         $basesql = "select count(bs.id) from booking b, bookedseat bs where bs.booking = b.id and b.performance = perf.id";

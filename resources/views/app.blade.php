@@ -55,6 +55,21 @@
         </div>
     </nav>
 
+    @if (count($errors) > 0)
+        <div class="alert alert-danger">
+            <ul>
+                @foreach ($errors->all() as $error)
+                    <li>{{ $error }}</li>
+                @endforeach
+            </ul>
+        </div>
+    @endif
+    @if (count($message) > 0)
+        <div class="flash flash-messages">
+            {{ $message }}
+        </div>
+    @endif
+
     @yield('content')
 
     <!-- Scripts -->
