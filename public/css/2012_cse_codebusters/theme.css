@@ -1,0 +1,305 @@
+body {
+    background-color: black;
+    background-image: url(website-bg.jpg);
+    background-repeat: repeat;
+    background-attachment: fixed;
+    color: #DDD;
+    font-family: 'Muli', sans-serif;
+    font-weight: 300;
+    font-size: 10pt;
+    line-height: 1.7em;
+    text-align: justify;
+}
+
+#container {
+    margin: 20px auto 20px auto;
+    max-width: 850px;
+    min-width: 500px;
+    background-color: black;
+    padding: 20px;
+    /*-moz-box-shadow: 0 0 10px 4px #247B65, inset 0 0 10px 3px #247B65;
+    -webkit-box-shadow: 0 0 10px 4px #247B65, inset 0 0 10px 3px #247B65;
+    box-shadow: 0 0 10px 4px #247B65, inset 0 0 10px 3px #247B65;*/
+    border: 2px solid #247B65;
+}
+
+.banner {
+    width: 100%;
+}
+
+section {
+    padding: 10px 20px;
+}
+
+#navbar {
+    margin: 20px;
+    padding: 2px;
+    -moz-box-shadow: 0 -10px 10px -7px #247B65, 0 10px 10px -7px #247B65;
+    -webkit-box-shadow: 0 -10px 10px -7px #247B65, 0 10px 10px -7px #247B65;
+    box-shadow: 0 -10px 10px -7px #247B65, 0 10px 10px -7px #247B65;
+    text-align: center;
+    /*color: white;*/
+    color: #247BCD;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-family: 'Bitter', serif;
+    font-weight: 700;
+}
+
+#navbar ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+#navbar ul li {
+    display: inline;
+    margin: 4%;
+}
+
+#navbar a {
+    color: #449BeD;
+}
+
+#navbar li.active a {
+    color: #fff;
+}
+
+a {
+    color: #54aBfD;
+    text-decoration: none;
+}
+
+a:hover, #navbar a:hover {
+    color: white;
+}
+
+h1, h2, h2 a {
+    color: #449B85;
+    text-decoration: none;
+    margin-top: 25px;
+}
+
+#navbar li.active {
+    color: white;
+}
+
+#sponsors {
+    width: 80%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+footer {
+    font-size: 9pt;
+    text-align: center;
+}
+
+footer a {
+    color: white;
+}
+
+#map {
+    float: right;
+    margin-left: 50px;
+    -moz-box-shadow: 0 0 10px 4px #247B65, inset 0 0 10px 3px #247B65;
+    -webkit-box-shadow: 0 0 10px 4px #247B65, inset 0 0 10px 3px #247B65;
+    box-shadow: 0 0 10px 4px #247B65, inset 0 0 10px 3px #247B65;
+    border: 2px solid #247B65;
+}
+
+h1#title_of_show {
+    text-align: center;
+    color: #fff;
+    margin-top: -100px;
+    margin-bottom: 100px;
+}
+
+#poster {
+    display: block;
+    float: right;
+    margin: 20px;
+    width: 199px;
+    height: 250px;
+    background: url('/poster_small.jpg') 0 0;
+}
+
+#poster:hover {
+    background-position: right;
+}
+
+/* ----------------------------------------------------------------------------
+ * Override default RBS CSS
+ * --------------------------------------------------------------------------*/
+
+#loginform input {
+    font-size: 10pt;
+    background-color: #111;
+    border: 1px solid #247B65;
+    color: #ccc;
+    padding: 5px 2px;
+    width: 15em;
+}
+
+#loginform input[type="submit"], #loginform input[type="button"] {
+    padding: 5px 0px;
+    width: 15em;
+    margin-left: 12em;
+    color: #fff;
+    background-color: #045B45;
+}
+
+#loginform input[type="submit"]:hover, #loginform input[type="button"]:hover {
+    background-color: #247B65;
+    cursor: hand;
+}
+
+td.paymentseats, td.booking, td.bookedstatus {
+    background-color: #045B45;
+    border-bottom: 0px;
+    border-top: 4px #444 solid;
+}
+
+td.paymentseats {
+    width: 75%;
+}
+
+div.paymentexpiry {
+    color: #f00;
+    font-weight: bold;
+}
+
+div.bookingsummaryperf, div.paymentsummaryperf {
+    width: auto;
+    padding-top: 0px;
+}
+
+div.bookingsummaryperf div, div.paymentsummaryperf div {
+    margin-left: 2.4em;
+}
+
+td.price, td.paymentprice {
+    background-color: #222;
+    border-left: 0px;
+    border-right: 0px;
+}
+
+#loginblurb {
+    margin-top: 1em;
+}
+
+.loginblurb {
+    text-align: justify;
+}
+
+td.booking {
+    border-left: 0px;
+}
+
+table.paymentsummary, table.bookingtable {
+    margin: 20px 2em;
+}
+
+th.paymentpricehead {
+    background-color: #334;
+    border-left: 0px;
+    border-right: 0px;
+}
+
+input[type="radio"] {
+    width: 2em;
+    height: 2em;
+}
+
+div#bigformbuttons {
+    text-align: center;
+}
+
+.continue {
+    background-color: #045B45;
+}
+
+.continue:hover {
+    background-color: #247B65;
+}
+
+.paymenttotal {
+    color: #64bBa5;
+    margin: 0px 0px 20px 0px;
+}
+
+.paymenttotal strong {
+    color: #fff;
+}
+
+div#totals {
+    padding: 40px 0px;
+    width: 100%;
+    text-align: center;
+}
+
+div#totals .pay {
+    padding: 0px;
+    text-align: justify;
+    font-size: 15px;
+    margin: 0px auto;
+    border: 0px;
+}
+
+div.disclaimer {
+    font-size: 11px;
+    color: #999;
+    line-height: 1.2;
+    margin-top: -20px;
+}
+
+div.loginlabel {
+    text-align: right;
+    width: 11em;
+    padding-right: 1em;
+}
+
+div#loading {
+    text-align: center;
+    font-size: 18px;
+    color: #f00;
+    font-weight: bold;
+}
+
+/* ----------------------------------------------------------------------------
+ * Fixing the theatre display.
+ * --------------------------------------------------------------------------*/
+
+div.segment {
+    background-color: #000;
+    position: relative;
+    left: -25%;
+    padding: 10px 0px;
+    border: 3px solid #247B65;
+    max-width: 150%;
+    min-width: 150%;
+}
+
+div.segmentnavup a, div.segmentnavdown a {
+    background-color: #247B65;
+    color: #fff;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+div.segmentnavup {
+    position: absolute;
+    top: 0px;
+}
+
+div.segmentnavup a:hover, div.segmentnavdown a:hover {
+    background-color: #449B85;
+    color: #fff;
+}
+
+div.seatdiv:hover {
+    cursor: hand;
+}
+
+p.seatname {
+    line-height: 1.2em;
+}

@@ -1,0 +1,43 @@
+@font-face {
+    font-family: 'supermario';
+    src: url('../../fonts/2015_med_super_cardio_bros/SuperMario256.ttf');
+}
+
+.eticket {
+    font-family: supermario;
+    font-size: 20px;
+    line-height: 30%;
+    color: #4F2515;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+    width: 800px;
+    height: 400px;
+}
+
+.ticketdata {
+    font-weight: bold;
+    margin-top: -88px;
+    width: 100%;
+    text-align: center;
+}
+
+.ticketdata p span#seat {
+    margin-left: 40px;
+}
+
+.ticketseat {
+    float: left;
+}
+
+img.ticketqrcode {
+    z-index: 1;
+    position: absolute;
+    left: 563px;
+    top: 15px;
+}
+
+#instructions {
+    margin-top: 410px;
+}

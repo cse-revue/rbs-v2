@@ -1,0 +1,80 @@
+/* The CSS file for Med Show 2014 */
+
+body {
+    background-color: rgb(255, 255, 50);
+    color: #000;
+    font-family: "Arial", serif;
+}
+
+.header {
+    background: url('../../img/2014_medshow_aching_bad/header.png') no-repeat top center;
+    background-size: contain;
+    margin-bottom: 50px;
+    padding-top: 350px;
+    text-align: center;
+    font-size: 150%;
+    font-weight: bold;
+}
+
+.sponsors {
+    display: block;
+    height: 140px;
+    background: url('../../img/2014_medshow_aching_bad/sponsors.png') no-repeat top center;
+}
+
+h1 > img.banner {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #2c3953;
+}
+
+footer {
+    text-align: center;
+}
+
+.invisible {
+    display: none;
+}
+
+#performances .button, #segmentlinks .button, #buttonpanel .button, #bigformbuttons .button, #totals .button {
+    background: #2c3953;
+    border: 1px solid #fff;
+    color: #fff;
+}
+
+#performances .button:hover, #segmentlinks .button:hover, #buttonpanel .button:hover, #bigformbuttons .button:hover, #totals .button:hover {
+    color: #2c3953;
+    background: #fff;
+    border: 1px solid #2c3953
+}
+
+.bookingtable th, .paymentsummary th{
+    background: #2c3953;
+    color: #fff;
+}
+
+p, h1, .pay {
+    color: black;
+}
+p.loginblurb {
+    color: black;
+}
+#login p, ul, h2, h3 {
+    color: black;
+}
+#login .ticketprices {
+    text-align: center;
+}
+
+#register h2 {
+    color: black;
+}
+
+.legendseat {
+    color: black;
+}

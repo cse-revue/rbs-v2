@@ -23,7 +23,7 @@ class Production extends Model {
          'name',
          'header',
          'footer',
-         'css',
+         'styles',
          'is_closed',
          'close_date',
          'theatre',

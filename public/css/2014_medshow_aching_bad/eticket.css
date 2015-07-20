@@ -1,0 +1,62 @@
+
+.eticket {
+    font-size: 20px;
+    line-height: 30%;
+    color: white;
+    position:absolute;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+    width: 800px;
+    height: 400px;
+}
+
+div {
+    font-family: helvetica;
+}
+#seat {
+    font-size:40px;
+    height: 50px;
+}
+#day {
+    font-size:40px;
+    height: 50px;
+}
+#date {
+    font-size:40px;
+    height: 50px;
+}
+
+.ticketdata {
+    font-weight: bold;
+    margin-top: -300px;
+    width: 300px;
+    margin-left: 470px;
+    text-align: center;
+}
+
+.ticketdata p span#seat {
+    margin-left: 40px;
+}
+
+.ticketseat {
+    float:left;
+}
+
+img.ticketqrcode {
+    z-index: 1;
+    position: absolute;
+    left: 563px;
+    top: 15px;
+}
+
+.sponsors {
+    display: block;
+    margin-top: 410px;
+    height: 180px;
+    padding-top: 140px;
+}
+
+#instructions {
+    margin-top: 410px;
+}

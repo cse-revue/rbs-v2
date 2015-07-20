@@ -4,7 +4,7 @@
     <h2>Production Information</h2>
     <h3>Ticket Totals</h3>
     <div class="row">
-        @foreach ($ticket_totals as $tt) {
+        @foreach ($ticket_totals as $tt)
             <div class="one fourth padded">
                 <h4>{!! $tt->title !!}</h4>
                 <ul>

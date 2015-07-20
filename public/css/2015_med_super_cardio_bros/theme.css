@@ -1,0 +1,116 @@
+/* The CSS file for Med Revue 2015 */
+
+body {
+    background: url('../../img/2015_med_super_cardio_bros/background.png') repeat-x top center;
+    background-color: #fff;
+    color: #000;
+    font-family: "Arial", serif;
+
+}
+
+
+.container {
+    width: 100% !important;
+    margin:0 !important;
+    max-width: none !important;
+}
+
+.header {
+    padding-top: 120px;
+    text-align: center;
+    font-size: 150%;
+    font-weight: bold;
+}
+
+.header::after {
+    content: '';
+    background: url('../../img/2015_med_super_cardio_bros/title.png') no-repeat top center;
+    background-size: contain;
+    height: 280px;
+    display:block;
+}
+
+#loginform::before {
+    content: '';
+    background: url('../../img/2015_med_super_cardio_bros/grass.png') repeat-x;
+    height: 80px;
+    padding: 10px;
+    display:block;
+}
+
+#loginform {
+    background: url('../../img/2015_med_super_cardio_bros/tile.png') repeat;
+}
+
+#login {
+    background:white;
+    opacity: 0.7;
+    padding: 15px;
+    padding-top: 0px;
+    border-radius: 4px;
+    margin-bottom: 40px;
+    width: 50%;
+}
+
+#register {
+    width: 30%;
+    background:white;
+    opacity: 0.7;
+    padding: 15px;
+    padding-top: 0px;
+    border-radius: 4px;
+    border: 0px;
+    margin-bottom: 40px;
+    margin-right: 80px;
+}
+
+
+.sponsors {
+    display: block;
+    height: 214px;
+    width: 100%;
+    background: url('/show_data/2015_med/sponsors.png');
+    background-size:   contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+h1 > img.banner {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #2c3953;
+}
+
+footer {
+    text-align: center;
+}
+
+.invisible {
+    display: none;
+}
+
+#performances .button, #segmentlinks .button, #buttonpanel .button, #bigformbuttons .button, #totals .button {
+    background: #2c3953;
+    border: 1px solid #fff;
+    color: #fff;
+}
+
+#performances .button:hover, #segmentlinks .button:hover, #buttonpanel .button:hover, #bigformbuttons .button:hover, #totals .button:hover {
+    color: #2c3953;
+    background: #fff;
+    border: 1px solid #2c3953
+}
+
+.bookingtable th, .paymentsummary th {
+    background: #2c3953;
+    color: #fff;
+}
+.paymentsummaryperf, #totals, .pay {
+    margin: 10px auto;
+    width: 70%;
+}

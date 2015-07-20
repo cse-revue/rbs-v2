@@ -1,0 +1,294 @@
+
+#performances .button, #segmentlinks .button, #buttonpanel .button {
+    display: block;
+    width: 300px;
+    margin: 10px auto;
+}
+
+#bigformbuttons .button {
+    width: 300px;
+    margin: 10px auto;
+    margin-right: 10px;
+}
+
+#performance_buttons {
+    display: none;
+    text-align: center;
+}
+
+#performance_buttons .button {
+    margin: 10px;
+}
+
+#segments {
+    display: none;
+}
+
+#theatre_render {
+    display: none;
+}
+
+#loading {
+    display: block;
+}
+
+#target {
+    visibility: hidden;
+}
+
+#navigation {
+    margin: 0.5em;
+}
+
+#perfdates {
+    margin: 2em 0;
+}
+
+.perfdate {
+    display: block;
+    margin: 0.5em auto;
+    width: 18em;
+}
+
+.perfdateclosed {
+    display: block;
+    color: #444;
+
+    margin: 0.5em auto;
+    width: 18em;
+    cursor: default;
+}
+
+.closedmessage {
+    color: #fff;
+    font-size: 0.75em;
+}
+
+.perfseats {
+    padding: 0;
+    text-align: center;
+    font-size: 0.6em;
+    color: #fff;
+}
+
+#segmentlinks {
+    text-align: center;
+    margin: 2em 0;
+}
+
+.segmentlink {
+    display: block;
+    font-size: 1.8em;
+    margin: 0.5em auto;
+    width: 10em;
+}
+
+.segmentstage {
+    display: block;
+    border: 1px solid #444;
+    color: #444;
+
+    margin: 0.5em auto;
+    width: 9em;
+    cursor: default;
+}
+
+#theatre_render h1, #segments h1, #performances h1 {
+    text-align: center;
+}
+
+.segment {
+    display: none;
+    font-size: 1em;
+    margin: 0 auto;
+}
+
+.segmentnavdown {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    text-align: center;
+    background-color: #fff;
+}
+
+.segmentnavdown a {
+    color: #000;
+    text-decoration: none;
+    display: block;
+}
+
+.segmentnavup {
+    width: 100%;
+    text-align: center;
+    background-color: #fff;
+}
+
+.segmentnavup a {
+    color: #000;
+    text-decoration: none;
+    display: block;
+}
+
+.seatdiv {
+}
+
+.seatname {
+    margin: -10px;
+    font-size: 0.8em;
+    text-align: center;
+}
+
+.button-selected {
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+#topbuttons {
+    margin-top: 5em;
+}
+
+#adminbuttons {
+    display: block;
+    text-align: center;
+}
+
+#adminbuttons .button {
+    margin: 10px;
+}
+
+.button {
+    text-align: center;
+    display: inline-block;
+    margin: 0 0.5em;
+    cursor: pointer;
+}
+
+#targetseats {
+    text-align: center;
+    display: none;
+}
+
+.targetseat {
+    margin: 0 1em;
+    padding: 0.25em;
+}
+
+#buttonpanel {
+    display: none;
+    text-align: center;
+}
+
+#payfortickets {
+    font-size: 1.2em;
+    margin: 1em 1em 0.5em 1em;
+}
+
+#anotherday {
+    margin: 1em 1em 0.5em 1em;
+    font-size: 1.2em;
+}
+
+#bookinginfo {
+    display: none;
+}
+
+/* Booking Summary */
+
+.bookingtable th, .paymentsummary th {
+    font-weight: bold;
+}
+
+.bookingsummaryperf, .bookingtable {
+    margin: 10px auto;
+    width: 70%;
+}
+
+.paymentsummary {
+    margin: 10px auto;
+    width: 100%;
+}
+
+.price, .priceheaders, .priceheader {
+    text-align: center;
+}
+
+.paypalsubmit {
+    display: block;
+    float: left;
+    height: 47px;
+    width: 107px;
+}
+
+.bookingtable {
+    color: black;
+    border-collapse: collapse;
+}
+
+.bookingsummaryperf {
+    margin: 10px auto;
+    width: 50%;
+}
+
+.price {
+    width: 100px;
+    margin: 0px;
+    text-align: center;
+    background-color: #fff;
+    border-left: 1px solid #666;
+    border-right: 1px solid #666;
+    height: 25px;
+    border-top: 4px #393944 solid;
+}
+
+.priceheaders {
+    margin: 0 0 0 200px;
+    text-align: center;
+}
+
+.priceheader {
+    width: 10em;
+    margin: 0px;
+    background-color: lightgrey;
+    border-left: 1px solid #666;
+    border-right: 1px solid #666;
+}
+
+.bookedstatus {
+    width: 10em;
+    background-color: #1DC06F;
+    margin: 0px;
+    border-top: 4px #444 solid;
+}
+
+.booking {
+    background-color: #1DC06F;
+    border-left: 4px #393944 solid;
+    border-top: 4px #444 solid;
+    padding: 0.5em;
+    margin: 0px;
+    width: 6em;
+}
+
+#legend {
+    text-align: center;
+    padding: 15px;
+    margin: 10px;
+}
+
+#legend h2 {
+    padding: 0;
+    margin: 0 0 0.25em 0;
+}
+
+#legendborder {
+    text-align: center;
+    border: 1px solid #444;
+    display: inline-block;
+    padding: 1em;
+}
+
+.legendentry {
+    text-align: center;
+    width: 5em;
+    display: inline-block;
+}

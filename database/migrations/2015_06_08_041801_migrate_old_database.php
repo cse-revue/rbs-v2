@@ -102,7 +102,7 @@ class MigrateOldDatabase extends Migration {
             $table->string('name', 50);
             $table->text('header');
             $table->text('footer');
-            $table->string('css', 50);
+            $table->string('styles', 50);
             $table->boolean('isclosed');
             $table->date('closedate');
             $table->string('theatre', 20);

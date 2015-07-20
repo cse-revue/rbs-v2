@@ -1,0 +1,92 @@
+.closedsegmentform {
+    margin: 5px 10px;
+}
+
+.closedsegmentform input.on {
+    font-weight: bold;
+}
+
+.closedsegmentform input.opened.on {
+    background-color: #0a0;
+    color: #fff;
+}
+
+.closedsegmentform input.closed.on {
+    background-color: #a00;
+    color: #fff;
+}
+
+.closedsegmentform input.off {
+    color: #aaa;
+}
+
+.closedsegmentform input.closed.off:hover {
+    cursor: hand;
+    background-color: #a00;
+    color: #fff;
+}
+
+.closedsegmentform input.opened.off:hover {
+    cursor: hand;
+    background-color: #0a0;
+    color: #fff;
+}
+
+a.segmentlink_admin {
+    display: block;
+    font-size: 20px;
+    padding: 10px;
+}
+
+a.segmentlink_admin:hover {
+    background-color: #eee;
+}
+
+a.segmentlink_admin.selected {
+    background-color: #eee;
+}
+
+table.segmentlist_admin {
+    padding: 5px;
+    margin: 0px auto;
+    margin-bottom: 50px;
+    width: auto;
+}
+
+table.segmentlist_admin th {
+    padding: 0px;
+}
+
+#modifybooking:hover {
+    background-position: 0px;
+}
+
+#fulltheatre a, .closedsegmentform, #startnewbooking a, #cancelbooking a, #savebooking a, #modifybooking a, #resetchanges a, .targetseat, .priceheader {
+    color: #fff
+}
+
+#bookinglist {
+    border-spacing: 0px;
+    border-left: 1px solid #ddd;
+    border-top: 1px solid #ddd;
+}
+
+#bookinglist tr th {
+    border-bottom: 2px solid #222;
+    border-right: 1px solid #ddd;
+    padding: 0.25em;
+}
+
+#bookinglist tr td {
+    margin: 1em 0 1em 0;
+    padding: 1em;
+    vertical-align: top;
+    border-bottom: 1px solid #222;
+    border-right: 1px solid #ddd;
+}
+
+.formentry {
+    margin: 0.5em;
+    padding: 0.5em;
+    border: 1px solid #ddd;
+}

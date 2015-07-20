@@ -23,7 +23,7 @@
         CSS File Location:
     </div>
     <div class="two thirds padded">
-        {!! Form::text('css') !!}
+        {!! Form::text('styles') !!}
     </div>
 
     <div class="one third padded">
